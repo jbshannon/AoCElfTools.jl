@@ -2,6 +2,7 @@ module AoCElfTools
 
 # Project dependencies (from Base)
 using Printf
+using Dates
 
 # Abstract function to be extended for each day
 function parseday end
