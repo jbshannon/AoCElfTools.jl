@@ -1,4 +1,4 @@
-const DATA_DIR = joinpath(dirname(@__DIR__), "test", "data")
+const DATA_DIR = joinpath(dirname(@__DIR__), "test", string(year(Dates.today())), "data")
 
 """
     samplepath(i::Int) -> String
