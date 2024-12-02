@@ -1,4 +1,4 @@
-i, istr = check_day(@__FILE__)
+i, istr = checkday(@__FILE__)
 
 @testset "Day $istr" begin
 
