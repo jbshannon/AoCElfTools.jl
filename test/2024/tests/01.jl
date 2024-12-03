@@ -7,6 +7,7 @@
     )
 
     for (user, answer) in answers
-        @test open(parse_solve(1), joinpath(datadir, user, "01.txt"))
+        datadir = joinpath(dirname(@__DIR__), "data")
+        @test open(parse_solve(1), joinpath(datadir, user, "01.txt")) == answer
     end
 end
