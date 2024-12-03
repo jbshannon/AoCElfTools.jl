@@ -8,7 +8,7 @@ function check_day(filepath)
     return parse(Int, istr), istr
 end
 
-@testset verbose=true "2023" begin
-    datadir = joinpath(@__DIR__, "2023/data")
-    foreach(include, readdir("2023/tests"; join=true))
+@testset verbose=true "2024" begin
+    datadir = joinpath(@__DIR__, "2024/data")
+    foreach(include, readdir("2024/tests"; join=true))
 end
