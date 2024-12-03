@@ -15,7 +15,7 @@ export samplepath
 export userpath
 
 # Include solution code
-foreach(include, readdir(joinpath(@__DIR__, "2023"); join=true))
+foreach(include, readdir(joinpath(@__DIR__, "2024"); join=true))
 
 """
     parse_input(i::Int) -> (IO -> puzzle input)
